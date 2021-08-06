@@ -35,11 +35,11 @@ The middle point of an array would be in PHP floor( (start index + end index) / 
 ## #step 4:
 Now the fun part begins. We have to define a while loop that will loop through the array if the starting point is greater than or equal to the ending point condition is meet. 
 
-First of all, we will check if the given element is greater than or equal to the array mid-value is true. If this condition is true then we will return the array mid-value. Because this is the value we are looking for.
+**First of all**, we will check if the given element is greater than or equal to the array mid-value is true. If this condition is true then we will return the array mid-value. Because this is the value we are looking for.
 
-Secondly, if the element is greater than the value of the array mid-value, then we will reset the starting point to the midpoint with added 1. Because in this case, we know that the left part of the array is useless and the desired value would be in the right part of the array and we want to leave the left portion from the loop.
+**Secondly**, if the element is greater than the value of the array mid-value, then we will reset the starting point to the midpoint with added 1. Because in this case, we know that the left part of the array is useless and the desired value would be in the right part of the array and we want to leave the left portion from the loop.
 
-Lastly, if the element is smaller than the value of the array mid-value then we will reset the ending point to the midpoint by subtracting 1. Because the desired value would be the left portion of the array.
+**Lastly**, if the element is smaller than the value of the array mid-value then we will reset the ending point to the midpoint by subtracting 1. Because the desired value would be the left portion of the array.
 
 If no condition is applied that means we did not find our desire number and we will return -1. Because the number does not exist in the array list.
 
